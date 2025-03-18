@@ -42,7 +42,7 @@ jobs:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: ${{ secrets.AWS_REGION }}
-        application_name: "23276631_skillflux"
-        environment_name: "23276631skillflux-env"
+        application_name: "django-demo"
+        environment_name: "Django-demo-env"
         version_label: "v-${{ github.run_number }}"
         deployment_package: "deploy-package.zip"
