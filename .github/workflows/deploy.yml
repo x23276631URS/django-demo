@@ -28,9 +28,9 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
 
-    - name: Collect static files
-      run: |
-        python manage.py collectstatic --noinput
+    # - name: Collect static files
+    #   run: |
+    #     python manage.py collectstatic --noinput
 
     - name: Package application
       run: |
